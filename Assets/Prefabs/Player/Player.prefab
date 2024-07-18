@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4954668561934596412}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foot
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: -4021045899129504787}
   - component: {fileID: 2533454796499087631}
   - component: {fileID: -4644706521428719336}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -85,6 +85,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foot: {fileID: 3948255952753349678}
+  lookingLeft: 0
   isJumping: 0
   horizontalMovement: 0
 --- !u!212 &7098852990522212397

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1595209749216196781}
   - component: {fileID: 4399983787756118974}
   - component: {fileID: 5915213582795052438}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spiked Ball
   m_TagString: PlayerWeapon
   m_Icon: {fileID: 0}

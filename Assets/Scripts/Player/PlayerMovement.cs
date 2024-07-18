@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] GameObject foot;
 
+    public bool lookingLeft;
+
     public bool isJumping;
     public float horizontalMovement;
     private void Start()
@@ -47,10 +49,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (horizontalMovement < 0)
         {
+            lookingLeft = true;
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         else if (horizontalMovement > 0)
         {
+            lookingLeft = false;
             transform.rotation = Quaternion.Euler(0, 0, 0);
         }
     } // Rotate player toward movement direction
